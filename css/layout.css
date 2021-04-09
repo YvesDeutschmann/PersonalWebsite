@@ -311,18 +311,38 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 6px;
 }
 
-#resume .download {
+#download {
    display: block;
    position: absolute;
+   
    left: 50%;
    transform: translateY(-50%) translateX(-50%);
-   background: #2B2B2B;
-   color: #fff;   
 }
 
-#resume .text-muted {
-   margin-top: 30px;
+#download a {
+   text-decoration: none;
+	border: 0 none;
+	display: block;
+   
+	width: 60px;
+	height: 60px;
+	background-color: #525252;
+
+	-webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+
+   color: #fff;
+   font-size: 21px;
    text-align: center;
+   line-height: 60px;
+ 	border-radius: 100%;
+}
+
+#download :hover{
+   background-color: #f0600f;
 }
 
 /* ------------------------------------------------------------------ */
